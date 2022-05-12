@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "esnext",
+      "sourceMap": true,
+      "outDir": "dist",
+      "moduleResolution": "node",
+      "removeComments": false,
+      "declaration": true,
+      "declarationDir": "types",
+      "strict": true,
+      "noEmitOnError": true,
+      "lib": ["es2017", "dom"],
+      "esModuleInterop": false,
+    },
+    "include": ["src"]
+  }
